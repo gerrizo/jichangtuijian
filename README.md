@@ -22,7 +22,7 @@ Just My Socks 是知名一线老牌主机商搬瓦工（BandwagonHost）官方�
 **基本信息：**
 > **创立时间：** 2018年10月  
 **网站月访问量：** 约40万（官方及各主备镜像站总计）  
-**协议：** Shadowsocks、V2Ray (Vmess)  
+**协议：** Shadowsocks、V2Ray (Vmess、VLESS + Reality)  
 **客户端支持：** 支持大多数主流代理软件，如 Clash、v2rayN、Shadowrocket、Sing-box 等。  
 **连接客户端最大数目：** 3 至 5 个（根据套餐不同有严格限制）  
 **落地服务器：** 搬瓦工自建 IT7 机房（由中国电信、联通、移动、CN2 GIA、NTT 等顶级 ISP 直连提供）  
@@ -44,7 +44,7 @@ Just My Socks 的核心卖点在于其官方背景带来的“永不失联”保
 
 ### 2.WgetCloud
 
-WgetCloud（原名 GaCloud）是一家偏向高端用户的翻墙机场。它由香港团队运作，面板自主开发，技术实力较强。采用 IPLC/IEPL 国际专线（如广港专线、沪日专线），搭配多线 BGP 入口与双程 CN2 线路绕过 GFW，能够在晚高峰以外的大部分时间保持低延迟、不卡顿。早期该机场兼容 Shadowsocks、Vmess、SSR 及 Trojan 等多种主流协议。后来据说为了优化网络结构，对协议进行了“精简”，现仅保留 Trojan 协议订阅，针对路由器等特殊设备保留了 SSR 协议订阅，但已不支持V2Ray这一目前最流行的协议。
+WgetCloud（原名 GaCloud）是一家偏向高端用户的翻墙机场。它由香港团队运作，面板自主开发，技术实力较强。采用 IPLC/IEPL 国际专线（如广港专线、沪日专线），搭配多线 BGP 入口与双程 CN2 线路绕过 GFW，能够在晚高峰以外的大部分时间保持低延迟、不卡顿。早期该机场兼容 Shadowsocks、Vmess、SSR 及 Trojan 等多种主流协议。后来据说为了优化网络结构，对协议进行了“精简”，现仅保留 Trojan 协议订阅，针对路由器等特殊设备保留了 SSR 协议订阅，但已不支持 VLESS + Reality 这一目前最流行的协议。
 
 **基本信息：**
 > **创立时间：** 2021  
